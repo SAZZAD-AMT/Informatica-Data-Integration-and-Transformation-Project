@@ -1,0 +1,26 @@
+sqldeveloper pass
+
+SYSTEM
+pass: system
+
+SYS
+pass: sys123
+
+HR
+PASS: hr
+
+INFA_DOM
+PASS: INFA_DOM
+
+INFA_REP
+PASS: INFA_REP
+
+INFORMATICA PASSWORD
+
+Encryption key: Sazzad017942@
+
+
+Domain User Name: Administrator
+Domain password: admin
+
+host: localhost:1551
