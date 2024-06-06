@@ -20,8 +20,8 @@
 
 ## SQL Code
 
-### 29.5.24 - Initial Table Setup and Data Insertion
-
+### 29.5.24 - Initial Table Setup and Data Insertion 
+~~~
 ALTER TABLE customer (
     customer_id INT PRIMARY KEY,
     cust_first_name VARCHAR2(30),
@@ -47,7 +47,7 @@ VALUES (4, 'Sara', 'Brown', 4567890123, 'arabrown@example.com', 1004);
 
 INSERT INTO customer (customer_id, cust_first_name, cust_last_name, cust_phone_no, cust_email_id, order_id) 
 VALUES (5, 'David', 'Williams', 5678901234, 'davidwilliams@example.com', 1005);
-
+~~~
 ## Creating and Truncating Tables
 
 CREATE TABLE customerdata (
