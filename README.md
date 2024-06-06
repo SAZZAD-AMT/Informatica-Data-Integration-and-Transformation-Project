@@ -3,7 +3,7 @@
 
 ## Images
 
-![Image 1](img/1 (1).png)
+![Image 1]('img/1 (1).png')
 ![Image 2](1(2).png)
 ![Image 3](1(3).png)
 ![Image 4](1(4).png)
