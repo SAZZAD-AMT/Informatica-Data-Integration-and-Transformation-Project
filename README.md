@@ -9,15 +9,18 @@
   <img src="img/1 (2).png" >
   *Image 2: Workflow of a sample Informatica job.*
   <img src="img/1 (3).png" >
+  *Image 3: Data flow overview in Informatica.*
   <img src="img/1 (4).png" >
+  *Image 4: Informatica mapping example.*
   <img src="img/1 (5).png" >
+  *Image 5: Error handling in Informatica.*
   <img src="img/1 (6).png" >
+  *Image 6: Performance tuning tips for Informatica.*
 </div>
 
 ## SQL Code
 
-```sql
--- 29.5.24 --
+### 29.5.24 - Initial Table Setup and Data Insertion
 
 ALTER TABLE customer (
     customer_id INT PRIMARY KEY,
