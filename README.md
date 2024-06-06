@@ -1,4 +1,4 @@
-﻿# INFORMATICA
+﻿# Informatica Data Integration and Transformation Project
 This process illustrates how to structure and manipulate relational databases effectively, demonstrating key SQL operations and transformations within an Informatica environment. The provided images and detailed SQL commands serve as a comprehensive guide for implementing and understanding these database management tasks.
 
 ## Images
@@ -203,3 +203,17 @@ CREATE TABLE employee_sequence_number(
 
 SELECT * FROM employee_sequence_number;
 ~~~
+
+
+## The process described in your Markdown file is generally referred to as Data Integration and Transformation using Informatica. It involves several key steps such as:
+
+<p>Database Schema Design and Alteration: Creating and modifying table structures.
+Data Insertion and Manipulation: Adding data to tables and updating existing data.</p>
+
+<p>Data Retrieval: Running SQL queries to fetch data.
+Data Truncation: Clearing data from tables.
+Data Aggregation: Summarizing data using transformations.
+Data Transformation: Changing data formats and structures.
+Data Joining: Combining data from multiple tables.
+Performance Tuning: Enhancing the efficiency of data operations.</p>
+This comprehensive process ensures that data is efficiently organized, manipulated, and retrieved to meet the needs of business intelligence and analytics.
