@@ -1,5 +1,5 @@
 ﻿# INFORMATICA
-
+This process illustrates how to structure and manipulate relational databases effectively, demonstrating key SQL operations and transformations within an Informatica environment. The provided images and detailed SQL commands serve as a comprehensive guide for implementing and understanding these database management tasks.
 
 ## Images
 
@@ -19,8 +19,9 @@
 </div>
 
 ## SQL Code
-
+The SQL scripts below are used to create and manage database tables, insert data, and perform various operations as part of the ETL (Extract, Transform, Load) process in Informatica.
 ### 29.5.24 - Initial Table Setup and Data Insertion 
+The first step involves setting up the customer and customerdata tables, inserting initial data into the customer table, and demonstrating some basic SQL operations such as renaming a column and truncating a table.
 ~~~
 ALTER TABLE customer (
     customer_id INT PRIMARY KEY,
