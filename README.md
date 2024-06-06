@@ -49,7 +49,7 @@ INSERT INTO customer (customer_id, cust_first_name, cust_last_name, cust_phone_n
 VALUES (5, 'David', 'Williams', 5678901234, 'davidwilliams@example.com', 1005);
 ~~~
 ## Creating and Truncating Tables
-
+~~~
 CREATE TABLE customerdata (
     customer_id INT PRIMARY KEY,
     cust_full_name VARCHAR2(30),
@@ -62,7 +62,10 @@ CREATE TABLE customerdata (
 SELECT * FROM customerdata;
 
 TRUNCATE TABLE customerdata;
+~~~
 
+### Employee Department Tables 
+~~~
 -- 31.5.24 --
 
 CREATE TABLE customerdetails (
@@ -116,8 +119,10 @@ SELECT * FROM employees WHERE department_id = 30;
 SELECT * FROM employees;
 
 TRUNCATE TABLE org_employee_default;
+~~~
 
--- 4.6.2024 --
+## Modifying Employee Data Table
+~~~
 
 CREATE TABLE org_employee_data(
     emp_id INT, 
@@ -129,9 +134,9 @@ CREATE TABLE org_employee_data(
 ALTER TABLE org_employee_data MODIFY emp_full_name VARCHAR2(100);
 
 SELECT * FROM org_employee_data;
-
--- 5.6.2024 Aggregator Transformation --
-
+~~~
+## Aggregator Transformation 
+~~~
 CREATE TABLE dept_salary(
     dept_id INT, 
     sum_dept_salary INT
@@ -141,9 +146,10 @@ SELECT * FROM dept_salary
 ORDER BY dept_id ASC;
 
 SELECT * FROM employees;
+~~~
 
--- Joining, Master, Full Details --
-
+## Joining, Master, Full Details 
+~~~
 CREATE TABLE SUBJECTS(
     SUBJECT_ID INT, 
     SUBJECT_NAME VARCHAR(30)
@@ -173,9 +179,9 @@ CREATE TABLE STUDENT_REC(
     STUDENT_ID INT,
     SUBJECT_NAME VARCHAR(30)
 );
-
--- Rank Transformation --
-
+~~~
+## Rank Transformation 
+~~~
 CREATE TABLE employee_rank(
     emp_id INT, 
     dept_id INT, 
@@ -184,9 +190,9 @@ CREATE TABLE employee_rank(
 );
 
 SELECT * FROM employee_rank;
-
--- Sequence Transformation --
-
+~~~
+## Sequence Transformation
+~~~
 CREATE TABLE employee_sequence_number(
     sr_no INT,
     emp_id INT, 
@@ -195,3 +201,4 @@ CREATE TABLE employee_sequence_number(
 );
 
 SELECT * FROM employee_sequence_number;
+~~~
