@@ -5,7 +5,9 @@
 
 <div align="center">
   <img src="img/1 (1).png" >
+  *Image 1: A diagram explaining the ETL process.*
   <img src="img/1 (2).png" >
+  *Image 2: Workflow of a sample Informatica job.*
   <img src="img/1 (3).png" >
   <img src="img/1 (4).png" >
   <img src="img/1 (5).png" >
